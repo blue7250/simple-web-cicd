@@ -4,7 +4,7 @@ lsy 2440666105
 """
 from flask import Flask, render_template_string
 
-app = Flask(__name__)
+app = Flask(__name__) 
 
 HTML = """<!DOCTYPE html>
 <html lang="zh-CN">
