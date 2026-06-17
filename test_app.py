@@ -7,7 +7,7 @@ from app import app
 def client():
     app.config["TESTING"] = True
     with app.test_client() as client:
-        yield client
+        yield client 
 
 
 def test_index_returns_200(client):
